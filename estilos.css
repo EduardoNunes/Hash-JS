@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Calligraffitti";
+}
+
+h2, h3 {
+    margin-top: -5px;
+    text-align: center;
+    color: #ebebeb;
+}
+
+#tela-escura {
+    width: 100%;
+    height: 100%;    
+    opacity: 0.95;
+    color: white;
+    display: none;
+    padding-top: 160px;
+    position: absolute;        
+    background-color: rgb(39, 38, 38);
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 240px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(92, 57, 122);
+    border: 3px solid black;
+}
+
+.tabuleiro {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.casa {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    width: 75px;
+    height: 75px;
+    font-size: 40pt;
+    margin: 2px 2px;
+    font-weight: 300;    
+    border-radius: 3px;
+    padding-top: 2px;
+    justify-content: center;
+    align-items: center;    
+    background-color: rgb(180, 153, 205);
+    
+}
